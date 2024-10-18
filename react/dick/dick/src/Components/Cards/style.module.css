@@ -1,0 +1,36 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.title {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	font-size: 60px;
+}
+
+.card {
+	width: 307px;
+	height: 387px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f4;
+	border-radius: 30px;
+	transition: 0.3s;
+
+	&:nth-child(1):hover {
+		box-shadow: inset 0 0 0 5px #6cb7e9;
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+
+	&:nth-child(2):hover {
+		box-shadow: inset 0 0 0 5px #e92679;
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+}
