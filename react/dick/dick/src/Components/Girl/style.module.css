@@ -37,8 +37,6 @@
 	color: white;
 	cursor: pointer;
 	transition: 0.3s;
-	position: relative;
-	right: 280px;
 	&:hover {
 		transform: scale(1.1);
 		background: #a51b57;
