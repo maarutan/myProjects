@@ -50,3 +50,47 @@
 span {
 	font-size: 40px;
 }
+
+@media (max-width: 890px) {
+	.boy {
+		width: 45%;
+		height: auto;
+		box-shadow: inset 0 0 0 3px #6cb7e9;
+		position: relative;
+		right: 20px;
+		padding: 20px;
+	}
+	.boy img {
+		width: 50%;
+		height: auto;
+	}
+
+	.title {
+		position: relative;
+		right: 30px;
+		padding: 20px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+		gap: 40px;
+		padding-top: 100px;
+		position: relative;
+		left: 20px;
+	}
+
+	.button {
+		width: 50vw;
+		height: 60px;
+		margin-top: 40px;
+		font-size: 18px;
+	}
+	.span {
+		font-size: 20px;
+	}
+	.input {
+		width: 90%;
+		height: 45px;
+		padding: 0 15px;
+	}
+}

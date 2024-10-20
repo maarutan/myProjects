@@ -25,7 +25,7 @@ const Boy = () => {
 				<div className={styles.title}>
 					<label htmlFor='name'>
 						<p>
-							<span className={styles.span}>Name:</span> <br />
+							<span className={styles.span}>name:</span> <br />
 							<input
 								className={styles.input}
 								type='text'
@@ -44,7 +44,7 @@ const Boy = () => {
 							} else {
 								navigate(
 									`/boySize?name=${encodeURIComponent(name)}`
-								); 
+								);
 							}
 						}}
 					>
