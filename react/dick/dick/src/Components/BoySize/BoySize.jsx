@@ -19,16 +19,15 @@ const BoySize = () => {
 		lol = 'norm';
 	}
 
-	// Определяем высоту в зависимости от значения size
 	let height;
 	if (size <= 5) {
-		height = '300px'; // Если размер меньше 5, высота 130px
+		height = '300px';
 	} else {
-		height = `${size * 50}px`; // Иначе высота зависит от size
+		height = `${size * 50}px`;
 	}
 
 	const trunkStyle = {
-		height: height, // Присваиваем высоту
+		height: height,
 	};
 
 	return (

@@ -1,0 +1,86 @@
+.header {
+	text-align: center;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 1200px;
+	align-items: center;
+	padding: 25px 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.401);
+}
+.logo,
+.results {
+	font-size: 1.6rem;
+	font-weight: bolder;
+}
+.results {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+.result {
+	color: #22a450;
+}
+.lose .result {
+	color: #a22122;
+}
+
+.title {
+	text-align: center;
+	padding: 70px 30px;
+	padding-bottom: 70px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.card {
+	background-color: #f9f9f9;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	height: 360px;
+	box-shadow: inset 0 0 0 3px #000000a1;
+	transition: all 0.4s ease;
+	&:hover {
+		transform: scale(1.1);
+		margin: 0 100px;
+		box-shadow: inset 0 0 0 7px #f1b20e;
+		cursor: pointer;
+		&:active {
+			transform: scale(0.9);
+		}
+	}
+}
+
+.card img {
+	max-width: 80%;
+	&:nth-child(5) {
+		max-width: 50%;
+	}
+}
+.UnicCard img {
+	max-width: 60%;
+}
+
+.text {
+	position: absolute;
+	bottom: 20px;
+	font-size: 1.5rem;
+	left: 40%;
+	font-weight: bolder;
+}
+
+.newCard {
+	left: 35%;
+}
